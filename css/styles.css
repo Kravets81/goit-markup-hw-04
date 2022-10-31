@@ -399,7 +399,8 @@ body {
   fill: currentColor;
 }
 
-.clients-item:hover .clients-link {
+.clients-item:hover .clients-link,
+.clients-link:focus {
   color: var(--activ-color);
   border: 1px solid var(--activ-color);
 }
